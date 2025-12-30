@@ -7,9 +7,8 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-      <AuthProvider>
-        <App />
-      </AuthProvider>
+      {/* Removed AuthProvider because logic is inside App.jsx */}
+      <App />
     </BrowserRouter>
   </React.StrictMode>
 );
